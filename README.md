@@ -2,7 +2,7 @@
 
 > *Coffee is a developer best friend.*
 
-The API is built with Rails 5 (this repo) while the frontend is powered by Ember.js (Check it out [here](https://github.com/FanaHOVA/ccphilly-frontend)). 
+The API is built with Rails 5 (this repo) while the frontend is powered by Ember.js (Check it out [here](https://github.com/FanaHOVA/ccphilly-frontend)). You'll have to explicitly call `bin/` before every command to use the Rails 5 exec and not your system one (i.e. `bin/rails g migration`)
 
 If you want to re-host this for a different city you can do so by changing the `config/global/geodata.yml` file with city and state name. The app is deployed with Capistrano and hosted with nginx; if you have a different setup, you'll have to make some changes. 
 
